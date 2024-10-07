@@ -11,7 +11,7 @@ public class DBConnexion {
     public static Connection connecter(){
         try{
           Class.forName("com.mysql.jdbc.Driver");
-          conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/Student_dbs","root","Zakaria1234@");
+          conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/Student_dbs","root","");
           System.out.println("success");       
         }catch(Exception ex){
         
